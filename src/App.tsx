@@ -1,11 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import image from './images/LIFE_COVER.png'
 function App() {
   return (
     <div className="App">
-      Welcome to Cupid's Nememsis's Site! We are currently a work in progresss! 
+      <h1 className='temp-banner'>
+        Welcome to Cupid's Nemesis's website! We are currently a work in progress!
+      </h1>
+      <div className="image-container">
+        <img className="loading-image" src={image} alt = 'temp image'></img>
+      </div>
     </div>
   );
 }
