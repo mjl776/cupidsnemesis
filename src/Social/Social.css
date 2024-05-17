@@ -1,0 +1,14 @@
+
+.social-container {
+    font-size: 2em;
+    text-align: center;
+}
+
+.social-content {
+    display: inline-block;
+    text-align: left;
+}
+
+.images-container {
+    padding-top: 25px;
+}
