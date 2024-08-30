@@ -4,18 +4,14 @@ body {
   overscroll-behavior: none;
   margin: 0;
   padding: 0;
-  font-family: 'Inter';
+  font-family: 'Times New Roman';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: 'Mukta';
-}
-
 html {
     height: 100%;
-    background: linear-gradient(#D02F94, #C59EB6);
+    background: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
