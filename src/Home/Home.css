@@ -1,0 +1,27 @@
+
+.concert-container {
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 0.5em;
+}
+
+.concert-container ul {
+     list-style: none;
+     text-align: center;
+}
+
+.concert-container ul li {
+    font-size: 2rem;
+    padding: 0.3rem
+}
+
+.concert-container ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.cupid-header {
+    padding-bottom: 1rem;
+    font-size: 4rem;
+    font-weight: bold;
+}

@@ -35,6 +35,10 @@ a {
   font-weight: 400;
 }
 
+.image-container {
+  padding: 1rem
+}
+
 @media screen and (max-width: 800px) {
   .menu-icon {
     transform: scale(1.5);

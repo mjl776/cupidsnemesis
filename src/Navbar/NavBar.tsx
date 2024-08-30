@@ -2,7 +2,7 @@
 import React, { useState, useEffect, } from 'react'
 import "./NavBar.css"
 import { NavLink } from 'react-router-dom';
-
+import cupidLogo  from '../images/Cupid-Logo.png'
 function NavBar() {
     // Screen width setter
     const [screenWidth, setScreenWidth] = useState(window.innerWidth)
@@ -23,7 +23,7 @@ function NavBar() {
     }, [])
     return (
         <nav className="navbar">
-            <a href="/" className="nav-branding"> Cupids Nemesis </a>
+            <img src={cupidLogo} className = "image-container"></img>
         </nav>
     )
 }
