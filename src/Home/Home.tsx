@@ -1,6 +1,8 @@
 import React from 'react'
 import './Home.css'
 import image from '../images/Cupid-Logo.png'
+import { NavLink } from 'react-router-dom';
+
 function Concerts() {
     return (
         <div className ='concert-container'>
@@ -9,29 +11,29 @@ function Concerts() {
                     <img src={image}></img>
                 </li>
                 <li className = "cupid-header">
-                    <a href="/">
+                    <NavLink to="/" className="nav-link">
                         Cupid's Nemesis
-                    </a>
+                    </NavLink>
                 </li>
                 <li>
-                    <a href="/releases">
+                    <NavLink to="/releases" className="nav-link">
                         Releases
-                    </a>
+                    </NavLink>
                 </li>
                 <li>
-                    <a href="/shows">
+                    <NavLink to="/shows" className="nav-link">
                         Upcoming Shows
-                    </a>
+                    </NavLink>
                 </li>
                 <li>
-                    <a href="/shop">
+                    <NavLink to="/shop" className="nav-link">
                         Shop
-                    </a>
+                    </NavLink>
                 </li>
                 <li>
-                    <a href="/contact">
+                    <NavLink to="/contact" className="nav-link">
                         Contact
-                    </a>
+                    </NavLink>
                 </li>
             </ul>
             <ul>
