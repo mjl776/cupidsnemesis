@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import image from '../images/Cupid-Logo.png'
+import image from '../../../images/Cupid-Logo.png'
 import { NavLink } from 'react-router-dom';
 
 function Concerts() {
