@@ -1,5 +1,5 @@
 import React from 'react'
-import image from "../images/white_suit_cupids.png"
+import image from "../../components/images/white_suit_cupids.png"
 import './Contact.css'
 function Contact() {
     return (
