@@ -8,9 +8,9 @@ import { BrowserRouter as Router } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-        <Router>
-          <Routes>
-            <Route path="/" element={<Concerts />} />
+      <Router basename={`/${process.env.PUBLIC_URL}`}>
+        <Routes>
+            <Route path="" element={<Concerts />} />
             <Route path="/contact" element={<Contact/>} />
           </Routes>
         </Router>
